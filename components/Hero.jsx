@@ -3,14 +3,10 @@ import { Button } from './ui/button'
 import { Download, Send } from 'lucide-react'
 
 import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFill,
   RiArrowDownSLine
 } from 'react-icons/ri'
 
 import DevImg from './DevImg'
-import Badge from './Badge'
 import Socials from './Socials'
 
 const Hero = () => {
@@ -27,7 +23,7 @@ const Hero = () => {
                 <Button className='gap-x-2'>Contact me <Send size={18} /></Button>
               </Link>
               <Link href='#'>
-                <Button variant='secondary' className='gap-x-2'>Download CV <Send size={18} /></Button>
+                <Button variant='secondary' className='gap-x-2'>Download CV <Download size={18} /></Button>
               </Link>
             </div>
             <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconStyles='text-foreground text-3xl hover:text-primary transition-all' />
